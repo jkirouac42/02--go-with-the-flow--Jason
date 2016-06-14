@@ -26,6 +26,8 @@ namespace GoWithTheFlow3
                 Console.WriteLine("Stay home and play WII golf! It's cheaper!");
 
             }
+
+            Console.WriteLine("Use any club or iron to continue.");
             Console.ReadLine();
         }
     }
