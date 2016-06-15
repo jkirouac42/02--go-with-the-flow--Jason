@@ -17,12 +17,12 @@ namespace GoWithTheFlow3
             
                 
 
-            if (userInput == "no")
+            if (userInput == "yes")
             {
                 Console.WriteLine("Stay home and play WII golf!");
             }
 
-            else if (userInput == "yes")
+            else if (userInput == "no")
             {
                 Console.WriteLine("Stay home and play WII golf! It's cheaper!");
 
@@ -31,18 +31,25 @@ namespace GoWithTheFlow3
             Console.WriteLine("Use any club or iron to continue.");
             
             Console.WriteLine("Pick an Iron 1-9");
-            double iron = Convert.ToDouble(Console.Read());
+            
+            double iron = Convert.ToDouble(Console.ReadLine());
 
             if (iron < 3)
             {
                 Console.WriteLine("You should use a club");
+
             }
-            else
+
+             else if (iron >= 3)
             {
-                Console.WriteLine("Really? Thats the one you picked?");
+              Console.WriteLine("Really? Thats the one you picked?");
             }
+
+
+
+
             Console.ReadLine();
-            //commit test
+           
         }
     }
 }
