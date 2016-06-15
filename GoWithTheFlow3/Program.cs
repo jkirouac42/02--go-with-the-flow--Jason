@@ -14,7 +14,8 @@ namespace GoWithTheFlow3
             Console.WriteLine("Is it raining?");
 
             string userInput = Console.ReadLine();
-
+            
+                
 
             if (userInput == "no")
             {
@@ -28,6 +29,18 @@ namespace GoWithTheFlow3
             }
 
             Console.WriteLine("Use any club or iron to continue.");
+            
+            Console.WriteLine("Pick an Iron 1-9");
+            double iron = Convert.ToDouble(Console.Read());
+
+            if (iron < 3)
+            {
+                Console.WriteLine("You should use a club");
+            }
+            else
+            {
+                Console.WriteLine("Really? Thats the one you picked?");
+            }
             Console.ReadLine();
         }
     }
