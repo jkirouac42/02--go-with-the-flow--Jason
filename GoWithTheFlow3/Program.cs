@@ -42,10 +42,10 @@ namespace GoWithTheFlow3
 
              else if (iron >= 3)
             {
-              Console.WriteLine("Really? Thats the one you picked?");
+              Console.WriteLine("You chose wisely.");
             }
 
-
+            
 
 
             Console.ReadLine();
